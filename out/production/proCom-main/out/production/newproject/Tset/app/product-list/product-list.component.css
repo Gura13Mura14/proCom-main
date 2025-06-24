@@ -1,0 +1,19 @@
+<style>
+.product-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  cursor: pointer;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.product-list img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+</style>

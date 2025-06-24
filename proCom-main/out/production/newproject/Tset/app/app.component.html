@@ -1,0 +1,4 @@
+<div class="app-container">
+  <app-product-list (selectedProduct)="onProductSelected($event)"></app-product-list>
+  <app-product-detail [product]="selectedProduct"></app-product-detail>
+</div>
